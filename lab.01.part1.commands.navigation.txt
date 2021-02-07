@@ -15,28 +15,55 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Applications
-Creative Cloud Files
-Desktop
-Documents
-Downloads
-Evening.Walk.latLong.v01.png
-Evening_Walk_exp_v02.hr.txt
-Library
-Movies
-Music
-OM
-Pictures
-Public
-finitevolume.png
-github
-iCloud Drive (Archive)
-installMacOpenFOAM
-javasharedresources
-lgBin
-louis.goldford@columbia.edu Creative Cloud Files
-startMacOpenFOAM
-venv
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{0ab99a04-f89d-11e9-bc63-d8a24d90318a}.TM.blf
+ NTUSER.DAT{0ab99a04-f89d-11e9-bc63-d8a24d90318a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{0ab99a04-f89d-11e9-bc63-d8a24d90318a}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+'New folder'/
+ Nox_share/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ d4ac4633ebd6440fa397b84f1bc94a3c.7z
+ inittk.ini
+ inst.ini
+ jagex_cl_oldschool_LIVE.dat
+ jagexappletviewer.preferences
+ jagexcache/
+ mtech1003/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ nuuid.ini
+ random.dat
+ useruid.ini
+ vmlogs/
+
 
 
 
@@ -49,6 +76,10 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+Adobe/
+'Adobe After Effects Auto-Save'/
+Arduino/
+ArduinoData/
 
 
 
@@ -62,6 +93,10 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+ Adobe/
+'Adobe After Effects Auto-Save'/
+ Arduino/
+ ArduinoData/
 
 
 
@@ -75,6 +110,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 
@@ -84,7 +120,7 @@ Copy and paste the output below.
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+up arrow
 
 
 
@@ -93,7 +129,7 @@ Copy and paste the output below.
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
+-a and -1
 
 
 
@@ -102,7 +138,7 @@ Copy and paste the output below.
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
+ls 
 
 
 
@@ -112,7 +148,7 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Document 
 
 
 
@@ -125,6 +161,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 
@@ -139,6 +176,7 @@ Copy and paste the output below.
 ----------
 
 
+bash: foo: command not found
 
 
 
@@ -151,7 +189,7 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+the command is ls the flag is -a the argument is Desktop and the prompt is $
 
 
 
@@ -169,7 +207,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+mkdir mtech1003
 
 
 
@@ -177,7 +215,7 @@ Follow the instructions line-by-line.
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
+cd mtech1003
 
 
 
@@ -194,7 +232,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/c/Users/Priya/mtech1003
 
 
 
@@ -208,7 +246,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 
 
@@ -221,7 +259,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/ food/
 
 
 
@@ -235,7 +273,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/ foo/ food/
 
 
 
@@ -251,7 +289,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/c/Users/Priya/mtech1003/foo/bar/baz/qux
 
 
 
@@ -264,7 +302,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/Priya/mtech1003/foo/bar
 
 
 
@@ -278,6 +316,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Priya/mtech1003/foo/bar/baz/qux
 
 
 
@@ -293,6 +332,7 @@ Copy and paste the output below.
 ----------
 
 
+/c/Users/Priya/mtech1003
 
 
 
@@ -307,6 +347,8 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
+foo/
+food/
 
 
 
@@ -322,6 +364,7 @@ Copy and paste the output into the space below.
 ----------
 
 
+/c/Users/Priya
 
 
 
@@ -334,8 +377,10 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+bash: cd: /Volumes: No such file or directory
 
 
+/c/Users/Priya
 
 
 
@@ -348,8 +393,10 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+bash: cd: /unkown_folder: No such file or directory
 
 
+/c/Users/Priya
 
 
 
@@ -365,6 +412,7 @@ Copy and paste the output into the space below.
 
 
 
+/c/Users/Priya/mtech1003
 
 
 
@@ -376,7 +424,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+DESKTOP-AOHIHG4
 
 
 
@@ -416,7 +464,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+ mkdir -p
 
 
 
@@ -428,7 +476,7 @@ Write the command you used to create the directory below:
 ----------
 
 
-
+mkdir
 
 
 
@@ -439,6 +487,7 @@ What is the modified date of the aardvark directory?
 ----------
 
 
+aardvark/  foo/  food/  pineapple/
 
 
 
@@ -454,7 +503,7 @@ What command did you use?
 ----------
 
 
-
+mkdir -p 
 
 
 
@@ -464,7 +513,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/baz
 
 
 
@@ -475,16 +524,16 @@ What command did you use?
 What command did you use?
 ----------
 
+cd foo/bar/baz
 
-
-
-
+pwd
 
 ==========
 36. What command is used to delete empty directories?
 ----------
 
 
+rmdir
 
 
 
@@ -493,7 +542,7 @@ What command did you use?
 37. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 
 
@@ -503,7 +552,7 @@ What command did you use?
 ----------
 
 
-
+-a
 
 
 
@@ -512,7 +561,7 @@ What command did you use?
 ----------
 
 
-
+cd ~/mtech1003
 
 
 
@@ -521,7 +570,7 @@ What command did you use?
 ----------
 
 
-
+the general form of the name of the file or directory
 
 
 
@@ -530,10 +579,11 @@ What command did you use?
 ----------
 
 
-
+A catalog structure on a file system that references other files
 
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Priya@DESKTOP-AOHIHG4 MINGW64 ~/Downloads
